@@ -289,6 +289,11 @@
     font-size: 1.1rem; margin-bottom: 1.1rem; color: var(--navy);
   }
   .quote-card cite { color: var(--gold); font-weight: 700; font-size: 0.9rem; font-style: normal; }
+  .quote-author { display: flex; align-items: center; gap: 0.85rem; }
+  .quote-author img {
+    width: 52px; height: 52px; border-radius: 50%; object-fit: cover;
+    border: 2px solid var(--gold); flex-shrink: 0;
+  }
   .quote-card .note {
     margin-top: 0.85rem; font-size: 0.78rem; color: var(--text-muted);
     text-transform: uppercase; letter-spacing: 0.12em;
@@ -518,7 +523,10 @@
       <div class="quote-card fade-in">
         <span class="mark">&ldquo;</span>
         <p class="quote-text">No te rindas. Sigue caminando. Sigue intentándolo. Hay ayuda y felicidad por delante.</p>
-        <cite>Élder Jeffrey R. Holland</cite>
+        <div class="quote-author">
+          <img src="images/jeffrey-r-holland.jpg" alt="Élder Jeffrey R. Holland">
+          <cite>Élder Jeffrey R. Holland</cite>
+        </div>
       </div>
       <div class="quote-card fade-in delay-1">
         <span class="mark">&ldquo;</span>
@@ -534,7 +542,10 @@
       <div class="quote-card fade-in delay-3">
         <span class="mark">&ldquo;</span>
         <p class="quote-text">Mis queridos jóvenes amigos, ¡cómo los ama el Señor! Estos son días emocionantes. El Señor está acelerando su obra ante nuestros ojos.</p>
-        <cite>Presidente Russell M. Nelson</cite>
+        <div class="quote-author">
+          <img src="images/russell-m-nelson.jpg" alt="Presidente Russell M. Nelson">
+          <cite>Presidente Russell M. Nelson</cite>
+        </div>
       </div>
     </div>
   </div>
@@ -582,16 +593,16 @@
       <div class="divider"></div>
     </div>
     <div class="resource-buttons">
-      <a class="resource-btn fade-in" href="https://www.churchofjesuschrist.org/study/manual/for-the-strength-of-youth?lang=spa" target="_blank" rel="noopener noreferrer">
-        <span>Para la Fortaleza de la Juventud</span>
+      <a class="resource-btn fade-in" href="https://www.churchofjesuschrist.org/study/scriptures?lang=spa" target="_blank" rel="noopener noreferrer">
+        <span>Las Escrituras</span>
         <span class="arrow">→</span>
       </a>
       <a class="resource-btn fade-in delay-1" href="https://www.churchofjesuschrist.org/study/come-follow-me?lang=spa" target="_blank" rel="noopener noreferrer">
         <span>Ven, Sígueme</span>
         <span class="arrow">→</span>
       </a>
-      <a class="resource-btn fade-in delay-2" href="https://www.churchofjesuschrist.org/youth/fsy?lang=spa" target="_blank" rel="noopener noreferrer">
-        <span>FSY</span>
+      <a class="resource-btn fade-in delay-2" href="https://www.churchofjesuschrist.org/study/scriptures/pgp?lang=spa" target="_blank" rel="noopener noreferrer">
+        <span>Perla de Gran Precio</span>
         <span class="arrow">→</span>
       </a>
     </div>
